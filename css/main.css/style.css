@@ -1,0 +1,178 @@
+body{   background:url(https://github.com/TrentonG/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+ display:flex;
+  justify-content:center;
+  
+}
+#page{
+  max-width:1080px;
+  min-width:1080px;
+
+}
+#left{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+#right{
+  display:flex;
+  flex-flow:column wrap;
+  align-items: flex-end;
+  width:6em;
+  height:4em;
+  margin:5px;
+
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+   
+}
+.socialLink{
+  height: 2em;
+}
+#slider{
+  position:relative;
+  height:500px;
+  background: url(https://content.halocdn.com/media/Default/community/blogs/art-team-drop/A-Concept/module/h5-guardians-concept-art-02-542x305-3b6406fd192f4c8eaf555e45f688b46b.jpg);
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#buttons{
+  display: flex;
+  justify-content: space-between;
+  width:102.5%;
+  position: absolute;
+  z-index:1;
+}
+.sliderButton{
+  height:4em;
+}
+#titlebar{
+  display:flex;
+  justify-content:flex-end;
+  height:10%;
+  width:100%;
+  position:absolute;
+  top:454px;
+}
+#bar{
+  height:45px;
+  width:100%; 
+  background: black;
+  opacity: .55;
+  position:absolute;
+  z-index:0;
+}
+#title{
+  position:absolute;
+  opacity:1;
+  color:white;
+}
+#pagedescript{
+  margin:50px;
+}
+.rathalos{
+  height:10em;
+}
+#gallery{
+  height:550px;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around; 
+}
+.imgrow{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+#viewmore{
+  display:flex;
+  justify-content:center;
+  margin:10px;
+}
+.button{
+  text-decoration: none;
+  background: url(https://github.com/TrentonG/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+  color:white;
+  background-color: #666;
+  background-blend-mode: overlay;
+  padding: 10px 50px;
+  
+}
+  
+#footer{
+  display:flex;
+  flex-flow: column nowrap;
+  background: url(https://github.com/TrentonG/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+  background-color: #666;
+  background-blend-mode: overlay;
+  padding: 10px 50px;
+  
+}
+#subfoot{
+  display:flex;
+  margin:10px 25px;
+}
+#tweet{
+  height:50px;
+  width:1080px;
+  position:relative;
+  right:50px;
+  top:-10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-size:cover;
+  background-color: 	rgb(48,48,48);
+  color:white;
+}
+#newTweet{
+  margin:5px;
+  
+}
+#age{
+  font-size:.7em;
+}
+
+#footnav{
+ 
+}
+#rightfoot{
+  position:relative;
+  right:50px;
+  width:33%;
+}
+#leftfoot{
+  position:relative;
+  left:50px;
+  width:33%;
+}
+#ftgallery{
+  position:relative;
+  right:25px;
+  top:-15px;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+}
+.rath{
+  height:4em;
+  margin:1px;
+}
+#searchBar{
+  display:flex;
+  background-size:cover;
+  background-color:white;
+}
+#magglass{
+  height:2em;
+}
+#vcd{
+  width:33%;
+  margin:0px 5px;
+}
