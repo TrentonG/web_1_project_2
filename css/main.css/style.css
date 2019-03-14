@@ -176,3 +176,104 @@ nav{
   width:33%;
   margin:0px 5px;
 }
+#student-feature {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) 2fr;
+	grid-template-rows: repeat(3, 1fr); 
+	grid-gap: 10px;
+}
+#focus {
+	background:lightgrey;
+	background-size: cover;
+	background-position: center;
+	grid-column-start: 1 ;
+	grid-column-end: 4;
+	grid-row-start: 1; 
+	grid-row-end: 3;
+}
+#position-one {
+  height:250px;
+	background:grey;
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 1 ;
+	grid-column-end: 2;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+#position-two {
+	background:grey;
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 2 ;
+	grid-column-end: 3;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+#position-three {
+	background: grey;
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 3 ;
+	grid-column-end: 4;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+#bio {
+  height:200px;
+	background: white;
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+  display:grid;
+  grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 1fr ; 
+	grid-gap: 10px;
+}
+#project-detail {
+	background: white;
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 2; 
+	grid-row-end: 4;
+}
+#profilepic{
+  background:grey;
+  background:cover;
+  grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+}
+#contactinfo{
+  grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  justify-content:space-around;
+ 
+}
+#sociallinks{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+ 
+  
+}
+#Portgallery{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr; 
+	grid-gap: 10px;
+  margin: 25px 0px;
+}
+.galimg{
+  background:grey;
+  height:175px;
+  width:250px;
+}
